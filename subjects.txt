@@ -1,0 +1,40 @@
+Subjects/tables:
+Students (PK: studentID)
+Professors (PK: professorID)
+Proctors (PK: proctorID)
+Test Centers (CPK: location (building) + university)
+Tests (PK: testID)
+StudentsTests(CPK: studentID(FK) + testID(FK))
+StudentsCourses(CPK: studentID + courseID)
+
+Characteristics/fields:
+studentID
+professorID
+proctorID
+testID
+courseID
+seatNum
+first name
+last name
+email
+phone number
+subject
+course
+location
+university
+date
+time
+scheduled work time
+time in
+time out
+time open
+time closed
+days open
+days closed
+total capacity
+available computers
+available seats
+test result
+test duration
+test file
+test type

@@ -1,0 +1,10 @@
+Mission Statment:
+The purpose of the Acme Proctoring Services Database is to store and maintain
+information Acme uses to administer and proctor exams. 
+
+Objectives:
+Teachers should be able to schedule tests (date, time, location) for a student.
+Store Student, Teacher, Proctor, Test Center, and Test data.
+Track scheduled Tests.
+Track available seating for testing centers.
+Create reports based on result of test (completed, incomplete, student absent, etc.).
